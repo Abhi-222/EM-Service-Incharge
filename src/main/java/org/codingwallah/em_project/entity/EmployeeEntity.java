@@ -1,5 +1,4 @@
-package org.codingwallah.em_project;
-
+package org.codingwallah.em_project.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -10,16 +9,15 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name="emp_db")
+@Table(name = "emp_db")
 
 public class EmployeeEntity {
-    
 
-@Id   
-@GeneratedValue(strategy= GenerationType.IDENTITY) 
-private Long id;
-private String name;
-private String phone;
-private String email;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String name;
+    private String phone;
+    private String email;
 
 }

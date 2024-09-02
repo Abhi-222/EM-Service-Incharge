@@ -1,4 +1,4 @@
-package org.codingwallah.em_project;
+package org.codingwallah.em_project.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,10 +8,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Employee {
-private Long id;
-private String name;
-private String phone;
-private String email;
-
+    private Long id;
+    private String name;
+    private String phone;
+    private String email;
 
 }
